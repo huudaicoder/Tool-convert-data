@@ -1,0 +1,8746 @@
+{
+ "BACKUP_MA_TINH_TRANG_TDC": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "BACKUP_MA_TINH_TRANG_TX": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "BCK_PN_GIAM_THOI_HAN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_XET",
+   "DATE"
+  ],
+  [
+   "MA_MUC_DN_GIAM_TG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CHAP_HANH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CON_LAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NHAN_XET_TG",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_MUC_DN_GIAM_V26",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LD_V26_DOI_MUC_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NHAN_XET_GIAM_V26",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGAY_QD_GIAM",
+   "DATE"
+  ],
+  [
+   "SO_QD_GIAM",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_CQ_TOA_QD_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_QD_GIAM_TOA_AN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LD_TOA_DOI_MUC_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_THA_GIAM_HET_AN",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_GTH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_NAM_CAI_TAO",
+   "NUMBER(4,0)"
+  ],
+  [
+   "SO_DE_NGHI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_LD_V26_KHONG_GIAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_LD_TOA_KHONG_GIAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "KQCT_PHIEU_GIAM",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "KQCT_DS_GIAM",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "C86_KY_GIAM": [
+  [
+   "MA_TRAI_GIAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_XET_GIAM",
+   "DATE"
+  ],
+  [
+   "NGAY_GUI_DU_LIEU",
+   "DATE"
+  ],
+  [
+   "NGAY_NHAN_DU_LIEU",
+   "DATE"
+  ]
+ ],
+ "INI_TAB": [
+  [
+   "VAR_NAME",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "VAR_VALUE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "VAR_COMMENT",
+   "VARCHAR2(4000 BYTE)"
+  ]
+ ],
+ "LAI_LICH_DIA_PHUONG": [
+  [
+   "SO_HSLD",
+   "NVARCHAR2(100)"
+  ],
+  [
+   "MA_TRAI_GIAM",
+   "NVARCHAR2(50)"
+  ],
+  [
+   "HO_TEN",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "GIOI_TINH",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "DC_TT_PHUONG_XA",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "MA_DP_DC_TT",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "DC_VAO_PHUONG_XA",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "MA_DP_DC_VAO",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "DC_VE_PHUONG_XA",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "MA_DP_DC_VE",
+   "NVARCHAR2(2000)"
+  ],
+  [
+   "NGAY_SINH_PN",
+   "NVARCHAR2(2000)"
+  ]
+ ],
+ "LOG_BACKUP": [
+  [
+   "NGAY_BACKUP",
+   "DATE"
+  ],
+  [
+   "TINH_TRANG",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "LOG_GUI_DU_LIEU": [
+  [
+   "NGAY_GUI",
+   "DATE"
+  ],
+  [
+   "TINH_TRANG",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "LOG_PN_KET_QUA_CAI_TAO": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NAM_XL",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_XEP_LOAI_Q1",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_Q2",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_DAU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_Q3",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_Q4",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_CUOI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_CA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_HOP",
+   "DATE"
+  ],
+  [
+   "NGAY_CAP_NHAT",
+   "DATE"
+  ],
+  [
+   "ACTION",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "LOG_PN_KL_KY_LUAT": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QD_KL",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_KL",
+   "DATE"
+  ],
+  [
+   "SO_BB_KL",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_BB_KL",
+   "DATE"
+  ],
+  [
+   "NOI_DUNG_VI_PHAM",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI",
+   "DATE"
+  ],
+  [
+   "NOI_DE_NGHI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_LY_DO_KL",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "LY_DO_KL",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_HINH_THUC_KL",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "HINH_THUC_KL",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN_KL",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "KL_TU_NGAY",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_QD_TB",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_TB",
+   "DATE"
+  ],
+  [
+   "NGAY_DN_TB",
+   "DATE"
+  ],
+  [
+   "NOI_DE_NGHI_TB",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_CAP_NHAT",
+   "DATE"
+  ],
+  [
+   "ACTION",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "LOV_MA_TRAI_LUU": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DC_XA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_DIA_CHI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LOAI_TRAI",
+   "VARCHAR2(2 BYTE)"
+  ],
+  [
+   "MA_KHU_VUC",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_THU_TU",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_CUM",
+   "VARCHAR2(3 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_BAN_GIAO_TX": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_CAN_CU_KEM": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(250 BYTE)"
+  ],
+  [
+   "NX",
+   "VARCHAR2(500 BYTE)"
+  ]
+ ],
+ "MA_CAP_TOA_XU": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_CHUC_SAC": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_CHUONG_TOI_DANH": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_CP_TINH_TRANG_GIAM_GIU": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_CQ": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_DANG_VIEN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_DAN_TOC": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_QG",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "MA_DIEU_KIEN_DAC_XA": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_DIEU_KIEN_THOI_GIAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_DIEU_KIEN_XEP_LOAI": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_DK_GTH": [
+  [
+   "THANG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DK_QUY",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DK_6THANG",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DK_NAM",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_DON_VI_TC8": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_DP": [
+  [
+   "MA",
+   "VARCHAR2(5 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_HIEN_TRANG",
+   "NUMBER(2,0)"
+  ],
+  [
+   "MA_KHU_VUC",
+   "VARCHAR2(2 BYTE)"
+  ],
+  [
+   "MA_THU_TU",
+   "VARCHAR2(4 BYTE)"
+  ],
+  [
+   "MA_LOAI_DIA_BAN",
+   "NUMBER(2,0)"
+  ],
+  [
+   "MA_HIEN_TAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_DP_XA_PHUONG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_QH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_DUOC_DAC_XA": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_GHI_CHU_DK_DAC_XA": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_GHI_CHU_DK_GIAM": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_GHI_CHU_DK_XEP_LOAI": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_GHI_CHU_DX": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "CHECK_DX",
+   "NUMBER"
+  ]
+ ],
+ "MA_GHI_CHU_HPBS": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_GHI_CHU_HPBS_TH": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_GHI_CHU_RIENG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_GHI_CHU_TIEN_AN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_GIOI_TINH": [
+  [
+   "MA",
+   "VARCHAR2(1 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_HANG_HOA": [
+  [
+   "MA",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_HE_SO_TIEN": [
+  [
+   "MA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_HIEU_TRAI": [
+  [
+   "MA_TRAI",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "MA_HINH_PHAT_BS": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_HINH_THUC_CHON": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_HINH_THUC_KL": [
+  [
+   "MA",
+   "VARCHAR2(2 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_HINH_THUC_KL_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_HINH_THUC_KT_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_HOC_VAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_MOI",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "MA_HTXL_BAT": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_KY_XLCT": [
+  [
+   "MA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_KY_THONG_BAO",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "MA_LD_AN_GIAM": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LD_KHONG_XET_GIAM": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LENH_GIAM_RIENG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LENH_TDC": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LENH_TX": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_BAO_QUAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_BB_GIAO_NHAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_DOI_TUONG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_DOI_TUONG_ANQG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_HINH_PHAT": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_NOP_LUU": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_PHAN_LOAI": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_TGHP": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_TG_BQ_HSPN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LOAI_VU_AN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LY_DO_GR": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LY_DO_KHONG_XET_DX": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LY_DO_KL_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LY_DO_KT_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LY_DO_TDC_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LY_DO_TRICH_XUAT": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_LY_DO_TRO_LAI": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_MT_BIEN_PHAP_CAI_NGHIEN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_CAN_CU_XAC_DINH": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_CHAT_MA_TUY": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_DONG_CO_SU_DUNG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_DO_TUOI_SU_DUNG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_HINH_THUC_SU_DUNG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_HOAN_CANH_GIA_DINH": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_NGHE_NGHIEP_BO_ME": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_NGUON_TIEN_MUA_MT": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_NGUYEN_NHAN_TAI_NGHIEN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_SO_LAN_SU_DUNG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_THOI_GIAN_SU_DUNG": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TINH_TRANG_CAI_NGHIEN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TINH_TRANG_HON_NHAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TINH_TRANG_KINH_TE_GD": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TINH_TRANG_NGHIEN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TP_BAN_THAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TRINH_DO_HV": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TRUONG_HOP_CAI": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_TRUONG_HOP_NGHIEN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MT_YEU_TO_CAI_NGHIEN_HQ": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_MUC_THOI_GIAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NAM",
+   "NUMBER(3,0)"
+  ],
+  [
+   "THANG",
+   "NUMBER(3,0)"
+  ],
+  [
+   "NGAY",
+   "NUMBER(3,0)"
+  ],
+  [
+   "MA_CU",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_NGHE_NGHIEP": [
+  [
+   "MA",
+   "VARCHAR2(3 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_NGUYEN_NHAN_CHET": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_PHAN_DOI_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TEN_DOI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "CONG_VIEC_LAM",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_CB_QUAN_GIAO",
+   "VARCHAR2(9 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_PHAN_LOAI_GIAM_GIU": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_PHAN_TRAI": [
+  [
+   "MA",
+   "VARCHAR2(8 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DIA_CHI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DIEN_TICH",
+   "NUMBER(20,0)"
+  ],
+  [
+   "QUY_MO",
+   "NUMBER(20,0)"
+  ],
+  [
+   "SO_NHA_GIAM",
+   "NUMBER(4,0)"
+  ],
+  [
+   "SO_BUONG_GIAM",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_TRUONG_PHAN_TRAI",
+   "VARCHAR2(9 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_QUAN_HE_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "MA_QUOC_TICH": [
+  [
+   "MA",
+   "VARCHAR2(3 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_QUYEN_TC8": [
+  [
+   "MA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_ROLE": [
+  [
+   "MA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_SUC_KHOE": [
+  [
+   "MA",
+   "VARCHAR2(3 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_SUC_KHOE_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TAI_PHAM": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_THANH_PHAN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_THA_CO_DK": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TH_BAT_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TH_CHET": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TH_CHUYEN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TH_SINH_CPN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TH_THA": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TH_TRON": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TIEN_TE": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_CPN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_DOC_VIET": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_HOC_TAP": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_PN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_TA": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_TDC": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_TRON": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TINH_TRANG_TX": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TK_DO_TUOI": [
+  [
+   "STT",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TU_DO_TUOI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DEN_DO_TUOI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TEN_CHI_TIEU",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TK_DO_TUOI_BAT": [
+  [
+   "STT",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TU_DO_TUOI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DEN_DO_TUOI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TEN_CHI_TIEU",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TK_MUC_AN_PHAT": [
+  [
+   "STT",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TU_MUC_AN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DEN_MUC_AN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TEN_CHI_TIEU",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TOI_DANH": [
+  [
+   "MA",
+   "VARCHAR2(5 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(255 BYTE)"
+  ],
+  [
+   "MA_CHUONG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_TT",
+   "VARCHAR2(255 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "CHECK_VO_Y",
+   "NUMBER"
+  ],
+  [
+   "CHUONG_2015",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "MA_TOI_DANH_DX": [
+  [
+   "MA_TOI_DANH",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "MA_TON_GIAO": [
+  [
+   "MA",
+   "VARCHAR2(3 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_QG",
+   "VARCHAR2(3 BYTE)"
+  ]
+ ],
+ "MA_TRAI_GIAM": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DC_XA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_DIA_CHI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LOAI_TRAI",
+   "VARCHAR2(2 BYTE)"
+  ],
+  [
+   "MA_KHU_VUC",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_THU_TU",
+   "NUMBER(5,0)"
+  ],
+  [
+   "MA_CUM",
+   "VARCHAR2(3 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "ND_LONG",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "MA_TRAI_GIAM_QH": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(500 BYTE)"
+  ]
+ ],
+ "MA_TRUONG_HOP_BAT": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TRUONG_HOP_DU_DKDX": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_TRUONG_HOP_MIEN_HP": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_VAI_TRO_VU_AN": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_XEP_LOAI": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_XEP_LOAI_CAI_TAO": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_XL_HOC_NGHE": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "MA_XL_HOC_VAN_HOA": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XAC_THUC",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "PN_BAN_AN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_BAN_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_BAN_AN",
+   "DATE"
+  ],
+  [
+   "MA_CAP_TOA_XU_BA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_TOA_XU_BA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_XU_BA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH_BA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_MUC_AN_BA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU_BA",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_BIEN_BAN": [
+  [
+   "ID_BB_GN",
+   "VARCHAR2(12 BYTE)"
+  ],
+  [
+   "BB_NGAY",
+   "DATE"
+  ],
+  [
+   "HO_TEN_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_BG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_CMND_BG",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_CAP_CMND_BG",
+   "DATE"
+  ],
+  [
+   "NOI_CAP_CMND_BG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "HO_TEN_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_BN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_CMND_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_CAP_CMND_BN",
+   "DATE"
+  ],
+  [
+   "NOI_CAP_CMND_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAN_CU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_CAI_TAO_KEM": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_NHAN_XET",
+   "DATE"
+  ],
+  [
+   "MA_MUC_TG_CH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_KEM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CAN_CU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "KQCT_KEM",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_CQ_NHAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_NHAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NHAN_XET",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "PN_CHUA_BENH_BAT_BUOC": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "QD_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_AN_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_AN_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_BENH_TAT",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "BENH_TAT",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NOI_CHUA_BENH",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_BAT_DAU",
+   "DATE"
+  ],
+  [
+   "NGAY_KET_THUC",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_CHUYEN_GIAO": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "SO_QD_CG",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_CG",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_CG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_CG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_QD_QDTH_CG",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_QDTH_CG",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QDTH_CG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QDTH_CG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_QUOC_GIA_CG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_CHUYEN_GIAO",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "PN_CHUYEN_TRAI": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "SO_QD_CHUYEN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_CHUYEN",
+   "DATE"
+  ],
+  [
+   "MA_TRUONG_HOP_CHUYEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_CHUYEN",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TRAI_DEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "CV_DN_CHUYEN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "CV_DN_CHUYEN_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_CQ_DN_CHUYEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_DN_CHUYEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_QD_CHUYEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_QD_CHUYEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TRAI_DEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_TRO_LAI",
+   "DATE"
+  ],
+  [
+   "QD_TRO_LAI_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "QD_TRO_LAI_NGAY",
+   "DATE"
+  ]
+ ],
+ "PN_CON_PHAM_NHAN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "HO_TEN_CPN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH_CPN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_SINH_CPN",
+   "DATE"
+  ],
+  [
+   "MA_TH_SINH_CPN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NOI_SINH_CPN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_DEN_CPN",
+   "DATE"
+  ],
+  [
+   "NGAY_RA_CPN",
+   "DATE"
+  ],
+  [
+   "MA_TINH_TRANG_CPN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU_CPN",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_DAC_DIEM_NHAN_DANG": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "CHIEU_CAO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SONG_MUI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NEP_TAI_DUOI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DAI_TAI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TAM_VOC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "GIONG_NOI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MAU_DA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DAU_VET_DB",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DI_HINH",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_DEFAULT_VALUES": [
+  [
+   "FIELD_CODE",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "FIELD_NAME",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "FIELD_VALUE",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_DOI_TUONG_ANQG": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_LOAI_DOI_TUONG_ANQG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LOAI_HD_ANQG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TC_HOAT_DONG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TEN_TC_HOAT_DONG",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TOM_TAT_HOAT_DONG",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_CHUC_VU_TO_CHUC",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "PN_DOI_TUONG_NGHIEN_MT": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_TP_BAN_THAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TRINH_DO_HV",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_HON_NHAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_HOAN_CANH_GD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_NGHE_BO_ME",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_KT_GD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CHAT_MA_TUY",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_HINH_THUC_SD",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_DO_TUOI_SD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_SO_LAN_SD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GIA_TIEN_SD_MOI_LAN",
+   "NUMBER(10,0)"
+  ],
+  [
+   "MA_THOI_GIAN_SD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_NGUON_TIEN_MUA_MT",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_DONG_CO_NGHIEN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_CAI_NGHIEN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_NGUYEN_NHAN_TAI_NGHIEN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_BP_CAI_NGHIEN_HQ",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_YEU_TO_CAI_NGHIEN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "DE_XUAT_VOI_XA_HOI",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "DE_XUAT_VOI_TG",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "DE_XUAT_VOI_BAN_THAN",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "CAM_DOAN_BAN_THAN",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN_SD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TRUONG_HOP_NGHIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_NGHIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TRUONG_HOP_CAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CAN_CU_XAC_DINH",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "PN_DOT_GIAM": [
+  [
+   "NGAY_XET",
+   "DATE"
+  ],
+  [
+   "NGAY_QD_GIAM",
+   "DATE"
+  ]
+ ],
+ "PN_DX_DAC_XA": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_XET_DX",
+   "DATE"
+  ],
+  [
+   "MA_DUOC_DAC_XA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CHAP_HANH_DX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_TRON",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_TDC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_GIAM_AN_DX",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CON_LAI_DX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "Y_KIEN_DOI_PN",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NHAN_XET_DE_NGHI",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "Y_KIEN_THAM_DINH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_THA_DX",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_LD_TO_TD_KHONG_XET",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "LY_DO_TO_TD_KHONG_XET",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_TO_CV_KHONG_XET",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "MA_LD_TO_CV_KHONG_XET",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "LY_DO_TO_CV_KHONG_XET",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_LD_CTN_KHONG_XET",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "LY_DO_CTN_KHONG_XET",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_TRINH_DIEN_DX",
+   "DATE"
+  ],
+  [
+   "DANH_GIA_CAI_TAO",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "Y_KIEN_QUAN_GIAO",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "Y_KIEN_CONG_AN_TTP",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_NAM_CAI_TAO",
+   "NUMBER(4,0)"
+  ],
+  [
+   "KQCT_PHIEU_DX",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "KQCT_DS_DX",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_PHIEU",
+   "NUMBER"
+  ]
+ ],
+ "PN_DX_DOI_TUONG_LUA_CHON": [
+  [
+   "MA_PN_DXDTLC",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_XET_DX",
+   "DATE"
+  ],
+  [
+   "MA_TRUONG_HOP_DU_DKDX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU_DXDTLC",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_DX_DOT_DAC_XA": [
+  [
+   "NGAY_XET_DX",
+   "DATE"
+  ],
+  [
+   "QD_LAM_DX_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "QD_LAM_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "HD_LAM_DX_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HD_LAM_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "QD_DX_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "QD_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_HOP_HOI_DONG",
+   "DATE"
+  ],
+  [
+   "SO_PN_TRAI_DUYET",
+   "NUMBER(4,0)"
+  ],
+  [
+   "SO_PN_THAM_DINH_DUYET",
+   "NUMBER(4,0)"
+  ],
+  [
+   "SO_PN_DUOC_DAC_XA",
+   "NUMBER(4,0)"
+  ],
+  [
+   "QD_BIEU_MAU_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_BIEU_MAU_NGAY",
+   "DATE"
+  ],
+  [
+   "TG_DANH_GIA_CAI_TAO",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "PN_DX_DOT_DAC_XA_1": [
+  [
+   "NGAY_XET_DX",
+   "DATE"
+  ],
+  [
+   "QD_LAM_DX_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "QD_LAM_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "HD_LAM_DX_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HD_LAM_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "QD_DX_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "QD_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_HOP_HOI_DONG",
+   "DATE"
+  ],
+  [
+   "SO_PN_TRAI_DUYET",
+   "NUMBER(4,0)"
+  ],
+  [
+   "SO_PN_THAM_DINH_DUYET",
+   "NUMBER(4,0)"
+  ],
+  [
+   "SO_PN_DUOC_DAC_XA",
+   "NUMBER(4,0)"
+  ],
+  [
+   "QD_BIEU_MAU_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_BIEU_MAU_NGAY",
+   "DATE"
+  ],
+  [
+   "TG_DANH_GIA_CAI_TAO",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "PN_DX_THONG_KE": [
+  [
+   "MA",
+   "VARCHAR2(4 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "CAU_LENH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_NAM",
+   "NUMBER(10,0)"
+  ],
+  [
+   "SO_NU",
+   "NUMBER(10,0)"
+  ]
+ ],
+ "PN_GIAM_THOI_HAN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_XET",
+   "DATE"
+  ],
+  [
+   "MA_MUC_DN_GIAM_TG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CHAP_HANH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CON_LAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NHAN_XET_TG",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_MUC_DN_GIAM_V26",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LD_V26_DOI_MUC_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NHAN_XET_GIAM_V26",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGAY_QD_GIAM",
+   "DATE"
+  ],
+  [
+   "SO_QD_GIAM",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_CQ_TOA_QD_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_QD_GIAM_TOA_AN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LD_TOA_DOI_MUC_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_THA_GIAM_HET_AN",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_GTH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_NAM_CAI_TAO",
+   "NUMBER(4,0)"
+  ],
+  [
+   "SO_DE_NGHI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_LD_V26_KHONG_GIAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_LD_TOA_KHONG_GIAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "KQCT_PHIEU_GIAM",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "KQCT_DS_GIAM",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_PHIEU",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "PN_GIAO_NHAN": [
+  [
+   "ID_BB_GN",
+   "VARCHAR2(12 BYTE)"
+  ],
+  [
+   "HO_TEN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NAM_SINH",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_GIOI_TINH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DKTT_THON_PHO",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DKTT_PHUONG_XA",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_DP_DKTT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_BAT",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_HSLD",
+   "VARCHAR2(11 BYTE)"
+  ]
+ ],
+ "PN_GIAY_RA_TRAI": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "GIAY_SO",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "GIAY_NGAY",
+   "DATE"
+  ],
+  [
+   "NGUOI_KY",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "INS_DATE",
+   "DATE"
+  ],
+  [
+   "GIAY_RA_TRAI",
+   "BLOB"
+  ],
+  [
+   "GHI_CHU_GRT",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_GIA_HAN_TDC": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "ID",
+   "NUMBER(10,0)"
+  ],
+  [
+   "ID_GH",
+   "NUMBER(10,0)"
+  ],
+  [
+   "SO_QD",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGAY_QD",
+   "DATE"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_LY_DO_TDC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN_GHTDC",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "PN_GR_GIAM_RIENG": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QD_GR",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGAY_QD_GR",
+   "DATE"
+  ],
+  [
+   "MA_LY_DO_GR",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "LY_DO_GIAM_RIENG",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN_GR",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_BD_GR",
+   "DATE"
+  ],
+  [
+   "SO_QD_RA",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGAY_QD_RA",
+   "DATE"
+  ],
+  [
+   "NGAY_KT_GR",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_GR",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGUOI_DN_GR",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_DN_GR",
+   "DATE"
+  ],
+  [
+   "NGUOI_DN_DUA_RA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_DN_DUA_RA",
+   "DATE"
+  ],
+  [
+   "LY_DO_DUA_RA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_LENH_GIAM_RIENG",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "PN_GR_GIA_HAN": [
+  [
+   "MA_PN_GRGH",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_PN_GR",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "SO_QD_GRGH",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGAY_QD_GRGH",
+   "DATE"
+  ],
+  [
+   "MA_MUC_THOI_HAN_GRGH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_BD_GRGH",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_GRGH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGUOI_DN_GRGH",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_DN_GRGH",
+   "DATE"
+  ],
+  [
+   "MA_LY_DO_GRGH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "LY_DO_GRGH",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "PN_HOAN_THI_HANH_AN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QD_HOAN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_HOAN",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_HOAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_HOAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "LY_DO_HOAN",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_HOAN",
+   "DATE"
+  ],
+  [
+   "DC_VE_CU_TRU",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_THI_HANH_AN",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_HTHA",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_HOC_NGHE": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "LOP_DAY_NGHE",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XL_HOC_NGHE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DANH_GIA_KQ_HOC_NGHE",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY",
+   "DATE"
+  ]
+ ],
+ "PN_HOC_VAN_HOA": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "LOP_DAY_VAN_HOA",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_XL_HOC_VAN_HOA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DANH_GIA_KET_QUA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY",
+   "DATE"
+  ]
+ ],
+ "PN_HO_SO_NGHIEP_VU": [
+  [
+   "ID_BB_GN",
+   "VARCHAR2(12 BYTE)"
+  ],
+  [
+   "BB_NGAY",
+   "DATE"
+  ],
+  [
+   "HO_TEN_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_BG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_CMND_BG",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_CAP_CMND_BG",
+   "DATE"
+  ],
+  [
+   "NOI_CAP_CMND_BG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "HO_TEN_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_BN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_CMND_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_CAP_CMND_BN",
+   "DATE"
+  ],
+  [
+   "NOI_CAP_CMND_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAN_CU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "HO_TEN_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_DK",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "PN_HPBS_HINH_PHAT": [
+  [
+   "MA_PN_HPBSHP",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "MA_HINH_PHAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NOI_DUNG_PHAT",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TONG_TIEN_PHAT",
+   "NUMBER(15,0)"
+  ],
+  [
+   "MA_HE_SO_TIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_HPBS",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU_HPBS_HP",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "TONG_DA_NOP",
+   "NUMBER(20,0)"
+  ]
+ ],
+ "PN_HPBS_THUC_HIEN": [
+  [
+   "MA_PN_HPBSTH",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_PN_HPBSHP",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "BIEN_LAI_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "BIEN_LAI_NGAY",
+   "DATE"
+  ],
+  [
+   "NGAY_NOP",
+   "DATE"
+  ],
+  [
+   "SO_TIEN_NOP",
+   "NUMBER(15,0)"
+  ],
+  [
+   "GHI_CHU_HPBS_TH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_CQ_THU_NOP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_THU_NOP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_HPBS_TH",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "PN_HSNV": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "HO_TEN_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HO_TEN_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HO_TEN_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_DK",
+   "DATE"
+  ]
+ ],
+ "PN_HSNV_KT": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "HO_TEN_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_BG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HO_TEN_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_BN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HO_TEN_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CAP_BAC_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHUC_VU_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_CQ_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_DK",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_DK",
+   "DATE"
+  ]
+ ],
+ "PN_HSPN_NOP_LUU": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "MA_CB_NOP_LUU",
+   "VARCHAR2(9 BYTE)"
+  ],
+  [
+   "SO_DANG_KY",
+   "VARCHAR2(11 BYTE)"
+  ],
+  [
+   "NGAY_LAP",
+   "DATE"
+  ],
+  [
+   "MA_DON_VI_LAP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_DK_LUU_TRU",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NOP_LUU_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_DV_NOP_LUU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TAI_LIEU_GT_KHAC",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TINH_TRANG_HS",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_LOAI_NOP_LUU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LOAI_TG_BQ",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_NAM_BAO_QUAN",
+   "NUMBER(4,0)"
+  ],
+  [
+   "NGAY_KET_THUC_HS",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "HO_TEN_CB",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CAP_BAC_CB",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CHUC_VU_CB",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "BQ_DEN_NAM",
+   "NUMBER(4,0)"
+  ]
+ ],
+ "PN_HUY_AN": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "SO_QD_HUY",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_HUY",
+   "DATE"
+  ],
+  [
+   "LY_DO_HUY",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_HUY",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_TOA_HUY",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_TRA_TUDO",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_LAI",
+   "DATE"
+  ]
+ ],
+ "PN_KET_QUA_CAI_TAO": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NAM_XL",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_XEP_LOAI_Q1",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_Q2",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_DAU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_Q3",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_Q4",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_CUOI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_XEP_LOAI_CA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_HOP",
+   "DATE"
+  ]
+ ],
+ "PN_KHEN_THUONG": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QD_KHEN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_KHEN",
+   "DATE"
+  ],
+  [
+   "NOI_DE_NGHI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_LY_DO_KT",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "LY_DO_KHEN",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_HINH_THUC_KT",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "HINH_THUC_KHEN",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI",
+   "DATE"
+  ]
+ ],
+ "PN_KL_GIA_HAN": [
+  [
+   "MA_PN_KLGH",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_PN_KL",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "SO_QD_KLGH",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_KLGH",
+   "DATE"
+  ],
+  [
+   "MA_MUC_THOI_HAN_KLGH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "KLGH_TU_NGAY",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_KLGH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI_KLGH",
+   "DATE"
+  ],
+  [
+   "NOI_DE_NGHI_KLGH",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_KL_KY_LUAT": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QD_KL",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_KL",
+   "DATE"
+  ],
+  [
+   "SO_BB_KL",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_BB_KL",
+   "DATE"
+  ],
+  [
+   "NOI_DUNG_VI_PHAM",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI",
+   "DATE"
+  ],
+  [
+   "NOI_DE_NGHI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_LY_DO_KL",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "LY_DO_KL",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_HINH_THUC_KL",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "HINH_THUC_KL",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_MUC_THOI_HAN_KL",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "KL_TU_NGAY",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_QD_TB",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_TB",
+   "DATE"
+  ],
+  [
+   "NGAY_DN_TB",
+   "DATE"
+  ],
+  [
+   "NOI_DE_NGHI_TB",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_KY_DAC_XA": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "TG_CHAP_HANH",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "TG_CON_LAI",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "TG_DA_GIAM",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "DU_DIEU_KIEN_DX",
+   "NUMBER(9,0)"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DU_DIEU_KIEN_HPBS",
+   "NUMBER(9,0)"
+  ],
+  [
+   "CHECK_DU_DK",
+   "NUMBER"
+  ],
+  [
+   "MA_TG_CHAP_HANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_TG_CON_LAI",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "PN_KY_GIAM_THOI_HAN": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "TG_CHAP_HANH",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "TG_CON_LAI",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "TG_DA_GIAM",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "DU_DIEU_KIEN_GIAM",
+   "NUMBER"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DU_DK_TG",
+   "NUMBER"
+  ],
+  [
+   "DU_DK_XL",
+   "NUMBER"
+  ],
+  [
+   "CHECK_DU_DK",
+   "NUMBER"
+  ]
+ ],
+ "PN_KY_THA_CO_DK": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "TG_CHAP_HANH",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "TG_CON_LAI",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "TG_DA_GIAM",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "DU_DIEU_KIEN_THA",
+   "NUMBER"
+  ],
+  [
+   "DU_DIEU_KIEN_HPBS",
+   "NUMBER"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_TG_CHAP_HANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_TG_CON_LAI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DU_DK_TG",
+   "NUMBER"
+  ],
+  [
+   "DU_DK_XL",
+   "NUMBER"
+  ],
+  [
+   "CHECK_DU_DK",
+   "NUMBER"
+  ]
+ ],
+ "PN_KY_XEP_LOAI": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ]
+ ],
+ "PN_LAI_LICH": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_HSLD",
+   "VARCHAR2(11 BYTE)"
+  ],
+  [
+   "SO_HSPHU",
+   "VARCHAR2(11 BYTE)"
+  ],
+  [
+   "MA_TRAI_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_DB",
+   "VARCHAR2(9 BYTE)"
+  ],
+  [
+   "NGAY_LAP_DB",
+   "DATE"
+  ],
+  [
+   "MA_CQ_LAP_DB",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_LAP_DB",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "CT_VAN_TAY1",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CT_VAN_TAY2",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HO_TEN",
+   "VARCHAR2(60 BYTE)"
+  ],
+  [
+   "TEN_KHAC",
+   "VARCHAR2(150 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGUYEN_QUAN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DC_TT_THON_PHO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DC_TT_PHUONG_XA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_DP_DC_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DC_VAO_THON_PHO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DC_VAO_PHUONG_XA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_DP_DC_VAO",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "CHO_O_KHAC",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DC_VE_THON_PHO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DC_VE_PHUONG_XA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_DP_DC_VE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DAN_TOC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TON_GIAO",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_QUOC_TICH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_HOC_VAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_NGHE_NGHIEP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGHE_CU_THE",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_SUC_KHOE_VAO",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_BENH_TAT_VAO",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "BENH_TAT_VAO",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_RIENG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "GHI_CHU_RIENG",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "THONG_TIN_KHAC",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_CQ_RL_BAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_RL_BAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "CAN_CU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_BAT",
+   "DATE"
+  ],
+  [
+   "MA_CAP_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "BAN_AN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_XU",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_QD_TH_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_TH_AN",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_DEN_TRAI",
+   "DATE"
+  ],
+  [
+   "NGAY_RA_TRAI",
+   "DATE"
+  ],
+  [
+   "MA_LOAI_DOI_TUONG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_PHAN_DOI",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "TOM_TAT_HV",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_TIEN_SU",
+   "NUMBER(2,0)"
+  ],
+  [
+   "SO_TIEN_AN",
+   "NUMBER(2,0)"
+  ],
+  [
+   "MA_TAI_PHAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TRINH_DO_CHUYEN_MON",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_PHAM_TOI",
+   "DATE"
+  ],
+  [
+   "MA_BENH_TAT_HT",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "BENH_TAT_HT",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TAM_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TAM_GIU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_HOC_TAP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_DOC_VIET",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_O_TRUOC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_SINH_PN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "SO_HS_GP",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_TRUONG_HOP_BAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LOAI_HINH_PHAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "INS_DATE",
+   "DATE"
+  ],
+  [
+   "UPD_DATE",
+   "DATE"
+  ],
+  [
+   "MA_DV_DP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_DN_DC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_DN_DC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SO_DE_NGHI_DC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI_DC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SO_QD_DC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_QD_DC",
+   "DATE"
+  ],
+  [
+   "HO_TEN_BO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DC_BO",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "HO_TEN_ME",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DC_ME",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "HO_TEN_VC",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "DC_VC",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "NGUOI_BAO_TIN",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "DC_BAO_TIN",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "GHI_CHU_TIEN_SU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "BUONG_GIAM",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "DIEU_KIEN_XLCT",
+   "NUMBER"
+  ],
+  [
+   "CHI_TIET_HV",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GHI_CHU_CAC_CON",
+   "VARCHAR2(3000 BYTE)"
+  ],
+  [
+   "VU_AN",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "ORDER_HO_TEN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_TRAI_CHUYEN_DEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_LAGN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "SO_CMND",
+   "VARCHAR2(12 BYTE)"
+  ],
+  [
+   "NHAN_THAN",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "CO_QUAN_BAO_TIN_KHAC",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "GHI_CHU_HPBS",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "LY_DO_KET_THUC",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "TIEN_HPBS_CON_LAI",
+   "NUMBER(20,0)"
+  ],
+  [
+   "CHI_MUC_TIM_KIEM",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_DP_XA_PHUONG_VE",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_DX",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SO_CCCD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_TINH_VE_QG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_XA_VE_QG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TINH_VE_QG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "XA_VE_QG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "VE_CHITIET_QG",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_LAI_LICH_C06": [
+  [
+   "HO_TEN",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "SO_CMND",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "PN_ID",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "ND_TRAI_GIAM",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "MA_TRAI_GIAM",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "MA_TINH_TRANG",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_NGAYSINH",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "SO_CCCD",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_HOTEN_BO",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_HOTEN_ME",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_HOTEN_VO_CHONG",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_TINH_THUONGTRU",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_MA_TINH_THUONGTRU",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_XA_THUONGTRU",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_MA_XA_THUONGTRU",
+   "NVARCHAR2(250)"
+  ],
+  [
+   "DC_THUONGTRU_CHITIET",
+   "NVARCHAR2(250)"
+  ]
+ ],
+ "PN_LUU_KY": [
+  [
+   "MA_PN_LK",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_GUI",
+   "DATE"
+  ],
+  [
+   "HO_TEN_NGUOI_NHAN",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "HO_TEN_NGUOI_LUU_KY",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_LUU_KY_CT": [
+  [
+   "MA_PN_LK",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "DO_VAT",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "SO_LUONG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "BANG_CHU",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CHU_THICH",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_LUU_KY_DO_VAT": [
+  [
+   "HO_TEN_NGUOI_GUI",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_LUU_KY",
+   "DATE"
+  ],
+  [
+   "CMND_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_CAP",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DON_VI_CAP",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_QUAN_HE",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DIA_CHI",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TEN_QUA",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "SO_LUONG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_LUU_KY_TIEN": [
+  [
+   "HO_TEN_NGUOI_GUI",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_LUU_KY",
+   "DATE"
+  ],
+  [
+   "SO_TIEN",
+   "NUMBER"
+  ],
+  [
+   "GHI_CHU_LK",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "CMND_SO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_CAP",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DON_VI_CAP",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_QUAN_HE",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DIA_CHI",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "PN_MIEN_HINH_PHAT": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "CV_DN_MIEN_SO",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "CV_DN_MIEN_NGAY",
+   "DATE"
+  ],
+  [
+   "QD_MIEN_SO",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "QD_MIEN_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_MIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_MIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TRUONG_HOP_MIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH_TRUOC_MIEN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "MA_MUC_AN_TRUOC_MIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH_MIEN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN_MIEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GIA_TRI_TAI_SAN",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "DANH_GIA_CAI_TAO",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_TRA_TU_DO",
+   "DATE"
+  ],
+  [
+   "BB_TRA_TU_SO_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "BB_TRA_TU_DO_NGAY",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_MIEN",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_NGAY_XET_GIAM": [
+  [
+   "NGAY_XET",
+   "DATE"
+  ]
+ ],
+ "PN_NOP_LUU": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "SO_LUU_TRU",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_CQ_LUU_TRU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_LUU_TRU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_NOP_LUU",
+   "DATE"
+  ],
+  [
+   "MA_LOAI_NOP_LUU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LOAI_BAO_QUAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_NAM_BAO_QUAN",
+   "NUMBER(4,0)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "TINH_TRANG_HO_SO",
+   "VARCHAR2(500 BYTE)"
+  ]
+ ],
+ "PN_OPEN_DOT_DAC_XA": [
+  [
+   "NGAY_XET_DX",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI",
+   "DATE"
+  ],
+  [
+   "TU_SO_PHIEU",
+   "NUMBER"
+  ],
+  [
+   "TU_SO_CNDX",
+   "NUMBER"
+  ],
+  [
+   "ACTION",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TU_NGAY_KQTD",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY_KQTD",
+   "DATE"
+  ],
+  [
+   "NGAY_HOP_KQTD",
+   "DATE"
+  ],
+  [
+   "NGAY_QD_KQTD",
+   "DATE"
+  ],
+  [
+   "HD_DX_SO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "HD_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "TU_SO_QD_KQTD",
+   "NUMBER"
+  ],
+  [
+   "QD_DX_SO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "QD_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "CHECK_XL_NAM",
+   "NUMBER"
+  ],
+  [
+   "CHUOI_XLCT",
+   "NUMBER"
+  ]
+ ],
+ "PN_OPEN_KY_GIAM_THOI_HAN": [
+  [
+   "NGAY_XET_GIAM",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI",
+   "DATE"
+  ],
+  [
+   "DIEU_KIEN_GIAM",
+   "NUMBER"
+  ],
+  [
+   "NGAY_VAN_BAN",
+   "DATE"
+  ],
+  [
+   "NGAY_XET_MOI",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_GIAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_GIAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_HOP_XET",
+   "DATE"
+  ],
+  [
+   "CO_HIEU_LUC",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "CO_TINH_NGAY",
+   "NUMBER(1,0)"
+  ],
+  [
+   "ACTION",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "PN_OPEN_KY_THA_CO_DK": [
+  [
+   "NGAY_XET_THA",
+   "DATE"
+  ],
+  [
+   "NGAY_HOP_XET",
+   "DATE"
+  ],
+  [
+   "NGAY_VAN_BAN",
+   "DATE"
+  ],
+  [
+   "TU_SO_PHIEU",
+   "NUMBER"
+  ],
+  [
+   "TU_SO_GCN",
+   "NUMBER"
+  ],
+  [
+   "TU_NGAY_KQTD",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY_KQTD",
+   "DATE"
+  ],
+  [
+   "NGAY_HOP_KQTD",
+   "DATE"
+  ],
+  [
+   "NGAY_QD_KQTD",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_THA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_THA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "ACTION",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TU_SO_TB",
+   "NUMBER"
+  ],
+  [
+   "NGAY_THONG_BAO",
+   "DATE"
+  ]
+ ],
+ "PN_OPEN_KY_XEP_LOAI": [
+  [
+   "NAM_XL",
+   "NUMBER"
+  ],
+  [
+   "KY_XEP_LOAI",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_HOP_XEP_LOAI",
+   "DATE"
+  ],
+  [
+   "NGAY_QD_XL",
+   "DATE"
+  ],
+  [
+   "NGAY_TB_XL",
+   "DATE"
+  ],
+  [
+   "TU_NGAY_DEN_TRAI",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "TU_SO_TB",
+   "NUMBER"
+  ],
+  [
+   "TU_SO_QD",
+   "NUMBER"
+  ],
+  [
+   "ACTION",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TU_NGAY_XL",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY_XL",
+   "DATE"
+  ]
+ ],
+ "PN_PHAM_TOI_MOI": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_PT_MOI",
+   "DATE"
+  ],
+  [
+   "NOI_PT_MOI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH_PTM",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "HINH_THUC_XL",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "GHI_CHU_PTM",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_PHAN_BUONG": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_CHUYEN",
+   "DATE"
+  ],
+  [
+   "SO_HIEU_BUONG",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_PHAN_DOI": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_CHUYEN_DEN",
+   "DATE"
+  ],
+  [
+   "MA_PHAN_DOI_DEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_PHAN_LOAI_GIAM_GIU": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_BIEN_BAN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_BIEN_BAN",
+   "DATE"
+  ],
+  [
+   "MA_PHAN_LOAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_QD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_QD",
+   "DATE"
+  ],
+  [
+   "MA_LOAI_PHAN_LOAI",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_TU_LOAI",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_DEN_LOAI",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGAY_PHAN_LOAI",
+   "DATE"
+  ]
+ ],
+ "PN_PNC_CHET": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_CHET",
+   "DATE"
+  ],
+  [
+   "MA_TH_CHET",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_NGUYEN_NHAN_CHET",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGUYEN_NHAN_CHET",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NOI_CHET",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "DIEN_BIEN_CHET",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_BDDT",
+   "DATE"
+  ],
+  [
+   "NGAY_KTDT",
+   "DATE"
+  ],
+  [
+   "NOI_DIEU_TRI",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGAY_CHON",
+   "DATE"
+  ],
+  [
+   "MA_HINH_THUC_CHON",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NOI_CHON",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "SO_MO",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_HANG_MO",
+   "VARCHAR2(9 BYTE)"
+  ],
+  [
+   "HANG_MO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DAC_DIEM_MO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TAI_SAN_CON",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGUOI_GIU_TAI_SAN",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGAY_BOC_MO",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_PNC",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGUOI_NHAN_THI_THE",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DC_NGUOI_NHAN_THI_THE",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "QUAN_HE",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NOI_HOA_TANG",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NOI_GUI_HAI_COT",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_PNC_TS_CHET": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "TEN_TAI_SAN",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "SO_LUONG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "CHAT_LUONG",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_QD_AN_GIAM": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "SO_QD",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "QD_GIAM_TOA_AN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_GIAM_TOA_AN_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_LD_AN_GIAM",
+   "VARCHAR2(30 BYTE)"
+  ]
+ ],
+ "PN_QD_DIEU_CHUYEN": [
+  [
+   "MA_QDDC",
+   "VARCHAR2(12 BYTE)"
+  ],
+  [
+   "MA_TRAI_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "QD_DC_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_DC_NGAY",
+   "DATE"
+  ],
+  [
+   "CV_DE_NGHI_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "CV_DE_NGHI_NGAY",
+   "DATE"
+  ],
+  [
+   "SO_PN",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_CQ_DE_NGHI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_DE_NGHI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TRAI_CHUYEN_DEN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_GIAO_PN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_GIAO_PN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_GIAO_PN",
+   "DATE"
+  ],
+  [
+   "MA_LOAI_DOI_TUONG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_QD_THI_HANH_AN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QDTH_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QDTH_AN",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QDTH_AN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QDTH_AN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_BAN_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_BAN_AN",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU_QDTHA",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_QUAN_HE_GIA_DINH": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "HO_TEN_QHGD",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_QUAN_HE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH_QHGD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_SINH_QHGD",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGHE_NGHIEP_QHGD",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NOI_O",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "GHI_CHU_QHGD",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "BAO_TIN",
+   "NUMBER"
+  ],
+  [
+   "DIEN_THOAI",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_RA_TRAI": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_TH_THA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_THA",
+   "DATE"
+  ],
+  [
+   "NGAY_TRINH_DIEN",
+   "DATE"
+  ],
+  [
+   "MA_HOC_VAN_RT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "HOC_VAN_RT",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_NGHE_NGHIEP_RT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGHE_NGHIEP_RT",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_SUC_KHOE_RT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SUC_KHOE_RT",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_BENH_TAT_RT",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "BENH_TAT_RT",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TIEN_AN",
+   "NUMBER(10,0)"
+  ],
+  [
+   "TIEN_TAU_XE",
+   "NUMBER(10,0)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_SUC_KHOE_BENH_TAT": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_KHAM",
+   "DATE"
+  ],
+  [
+   "BAC_SY_KHAM",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NOI_KHAM_BENH",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "KET_LUAN_KHAM_BENH",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "GIAY_XET_NGHIEM_SO",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "GIAY_XET_NGHIEM_NGAY",
+   "DATE"
+  ],
+  [
+   "NOI_XET_NGHIEM",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "KET_LUAN_XET_NGHIEM",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "BENH_TAT",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NOI_DIEU_TRI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DIEU_TRI_TU_NGAY",
+   "DATE"
+  ],
+  [
+   "DIEU_TRI_DEN_NGAY",
+   "DATE"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_TANG_GIAM_HINH_PHAT": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "MA_LOAI_TGHP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_QD",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGAY_QD",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU_TGHP",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_TDC_GIA_HAN": [
+  [
+   "MA_PN_TDCGH",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_PN_TDC",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "SO_QD_TDCGH",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_TDCGH",
+   "DATE"
+  ],
+  [
+   "MA_MUC_THOI_HAN_TDCGH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TU_NGAY_TDCGH",
+   "DATE"
+  ],
+  [
+   "MA_LY_DO_TDCGH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "GHI_CHU_TDCGH",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_TDC_TAM_DINH_CHI": [
+  [
+   "MA_PN_TDC",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QD",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD",
+   "DATE"
+  ],
+  [
+   "MA_CQ_CUA_TOA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_CUA_TOA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LY_DO_TDC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "LY_DO_TDC",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN_TDC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "NOI_VE_THON",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NOI_VE_XA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_DP_NOI_VE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_TDC",
+   "DATE"
+  ],
+  [
+   "NGAY_LAI",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_TDC",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_LENH_TDC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_DE_NGHI",
+   "DATE"
+  ],
+  [
+   "MA_TINH_TRANG_TDC",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_THOI_HAN_TC8",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_THOI_HAN_TRAI",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NHAN_XET",
+   "VARCHAR2(3000 BYTE)"
+  ]
+ ],
+ "PN_THAM_GAP": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_THAM",
+   "DATE"
+  ],
+  [
+   "HO_TEN_CB_TIEP",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "SO_CMND",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NGAY_CAP",
+   "DATE"
+  ],
+  [
+   "MA_DP_CAP",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_QUAN_HE",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HO_TEN_NGUOI_THAM",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "HO_TEN_CB_AG",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TU_THOI_GIAN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DEN_THOI_GIAN",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "QUA_GUI",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "PHONG_SO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DON_VI_CAP",
+   "VARCHAR2(200 BYTE)"
+  ]
+ ],
+ "PN_THA_CO_DK": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_XET_TT",
+   "DATE"
+  ],
+  [
+   "MA_DUOC_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CH_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_TRON_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_TDC_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_GIAM_AN_TT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CON_LAI_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "Y_KIEN_DOI_PN_TT",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NHAN_XET_TT",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "DANH_GIA_CAI_TAO_TT",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "SO_QD_TT",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_TT",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_THA_TT",
+   "DATE"
+  ],
+  [
+   "NGAY_TRINH_DIEN_TT",
+   "DATE"
+  ],
+  [
+   "NGAY_QD_TRO_LAI",
+   "DATE"
+  ],
+  [
+   "SO_QD_TL",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_TL",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_TL",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_TL",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LY_DO_TRO_LAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "LY_DO_TROLAI_CHITIET",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "KQCT_PHIEU_TT",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "KQCT_DS_TT",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_PHIEU",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "GHI_CHU_TT",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_TRO_LAI_TRAI",
+   "DATE"
+  ],
+  [
+   "DE_NGHI_TT",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "PN_TIEN_AN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NAM_XU",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_CQ_TOA_XU_TA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_XU_TA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH_TA",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_MUC_AN_TA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TRAI_GIAM_TA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_TA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NAM_THA",
+   "NUMBER(4,0)"
+  ],
+  [
+   "GHI_CHU_TA",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_TA",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "PN_TIEN_CHI_TIEU": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_CHI",
+   "DATE"
+  ],
+  [
+   "SO_TIEN_CHI",
+   "NUMBER(10,0)"
+  ],
+  [
+   "MUC_DICH",
+   "VARCHAR2(500 BYTE)"
+  ]
+ ],
+ "PN_TIEN_CONG_SX": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NAM_SX",
+   "NUMBER(4,0)"
+  ],
+  [
+   "TIEN_Q1",
+   "NUMBER(10,0)"
+  ],
+  [
+   "TIEN_Q2",
+   "NUMBER(10,0)"
+  ],
+  [
+   "TIEN_Q3",
+   "NUMBER(10,0)"
+  ],
+  [
+   "TIEN_Q4",
+   "NUMBER(10,0)"
+  ],
+  [
+   "TIEN_KHAC",
+   "NUMBER(10,0)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(500 BYTE)"
+  ]
+ ],
+ "PN_TIEN_SU": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_THANG",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "QD_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_NGAY",
+   "DATE"
+  ],
+  [
+   "HANH_VI_VP",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "DON_VI_XL",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "HINH_THUC_XL",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "NOI_CHAP_HANH",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "NGAY_BAT_DAU",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGAY_KET_THUC",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "GHI_CHU_TS",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_TONG_HOP_DX": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_HSLD",
+   "VARCHAR2(11 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_TINH_TRANG",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_DB",
+   "VARCHAR2(9 BYTE)"
+  ],
+  [
+   "NGAY_LAP_DB",
+   "DATE"
+  ],
+  [
+   "DON_VI_LAP_DB",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HO_TEN",
+   "VARCHAR2(60 BYTE)"
+  ],
+  [
+   "ORDER_HO_TEN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TEN_KHAC",
+   "VARCHAR2(150 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_GIOI_TINH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NAM_SINH",
+   "NUMBER"
+  ],
+  [
+   "NGUYEN_QUAN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_DP_DC_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DC_TT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_DP_DC_VE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DP_VE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_DP_XA_PHUONG_VE",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "ND_DP_XA_PHUONG_VE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DC_VE_PHUONG_XA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DC_VE_XA_PHUONG",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DC_VE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CHO_O_KHAC",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_DAN_TOC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_DAN_TOC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_QUOC_TICH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_QUOC_TICH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TON_GIAO",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_TON_GIAO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_HOC_VAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_HOC_VAN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_NGHE_NGHIEP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_NGHE_NGHIEP",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ND_TOI_DANH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_BAT",
+   "DATE"
+  ],
+  [
+   "NGAY_DEN_TRAI",
+   "DATE"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_MUC_AN_PHAT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_MUC_TAM_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_MUC_TAM_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MUC_TAM_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_MUC_TAM_GIU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_MUC_TAM_GIU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TRAI_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "BAN_AN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_XU",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TOA_XU_CC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TOA_XU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_DP_TOA_XU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_PHAN_DOI",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "ND_PHAN_DOI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "PHAN_TRAI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_QD_TH_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_TH_AN",
+   "DATE"
+  ],
+  [
+   "TOA_QD",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_DP_TOA_QD",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DP_TOA_QD",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DP_DN_DC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_TIEN_AN",
+   "VARCHAR2(40 BYTE)"
+  ],
+  [
+   "TIEN_AN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_TIEN_SU",
+   "VARCHAR2(40 BYTE)"
+  ],
+  [
+   "GHI_CHU_TIEN_SU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "PHAN_DOI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_RA_TRAI",
+   "DATE"
+  ],
+  [
+   "SUC_KHOE_VAO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_RIENG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "GHI_CHU_RIENG",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "CHI_TIET_HV",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GHI_CHU_CAC_CON",
+   "VARCHAR2(3000 BYTE)"
+  ],
+  [
+   "HO_TEN_BO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HO_TEN_ME",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HO_TEN_VC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CAC_CON",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TAM_GIU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TAM_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "XEP_LOAI_CAI_TAO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_XET_DX",
+   "DATE"
+  ],
+  [
+   "MA_MUC_TG_CHAP_HANH_DX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TG_CHAP_HANH_DX",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CON_LAI_DX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TG_CON_LAI_DX",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TRON",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TDC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_DA_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HPBS_KHAC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "Y_KIEN_DOI_PN",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NHAN_XET_DE_NGHI",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "Y_KIEN_THAM_DINH",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "Y_KIEN_CONG_AN_TTP",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "DANH_GIA_CAI_TAO",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "NGAY_THA_DX",
+   "DATE"
+  ],
+  [
+   "NGAY_TRINH_DIEN_DX",
+   "DATE"
+  ],
+  [
+   "QD_DX_SO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "QD_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "NGAY_HOP_KQTD",
+   "DATE"
+  ],
+  [
+   "TU_NGAY_KQTD",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY_KQTD",
+   "DATE"
+  ],
+  [
+   "HD_LAM_DX_NGAY",
+   "DATE"
+  ],
+  [
+   "HD_LAM_DX_SO",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_DUOC_DAC_XA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_DUOC_DAC_XA",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_SINH_PN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "ND_TRAI_GIAM",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_LOAI_TRAI",
+   "VARCHAR2(2 BYTE)"
+  ],
+  [
+   "MA_THU_TU",
+   "NUMBER(5,0)"
+  ],
+  [
+   "MA_KHU_VUC",
+   "NUMBER(4,0)"
+  ],
+  [
+   "MA_CUM",
+   "VARCHAR2(3 BYTE)"
+  ],
+  [
+   "KQCT_PHIEU_DX",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "KQCT_DS_DX",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "SO_PHIEU",
+   "NUMBER"
+  ],
+  [
+   "MA_GHI_CHU_DX",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "PN_TONG_HOP_GIAM": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_HSLD",
+   "VARCHAR2(11 BYTE)"
+  ],
+  [
+   "SO_CCCD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "HO_TEN",
+   "VARCHAR2(60 BYTE)"
+  ],
+  [
+   "ORDER_HO_TEN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TEN_KHAC",
+   "VARCHAR2(150 BYTE)"
+  ],
+  [
+   "ND_GIOI_TINH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NAM_SINH",
+   "NUMBER"
+  ],
+  [
+   "NGUYEN_QUAN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DC_TT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DC_VE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CHO_O_KHAC",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "ND_DAN_TOC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_QUOC_TICH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_TON_GIAO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_HOC_VAN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_NGHE_NGHIEP",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ND_TOI_DANH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_BAT",
+   "DATE"
+  ],
+  [
+   "NGAY_DEN_TRAI",
+   "DATE"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_MUC_AN_PHAT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MUC_TAM_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TRAI_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "BAN_AN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_XU",
+   "DATE"
+  ],
+  [
+   "TOA_XU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_PHAN_DOI",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "PHAN_TRAI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_QD_TH_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_TH_AN",
+   "DATE"
+  ],
+  [
+   "TOA_QD",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DP_TOA_QD",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_TIEN_AN",
+   "VARCHAR2(40 BYTE)"
+  ],
+  [
+   "SO_TIEN_SU",
+   "VARCHAR2(40 BYTE)"
+  ],
+  [
+   "GHI_CHU_TIEN_SU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "ND_TRAI_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "PHAN_DOI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_RA_TRAI",
+   "DATE"
+  ],
+  [
+   "SUC_KHOE_VAO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_RIENG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "GHI_CHU_RIENG",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "CHI_TIET_HV",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GHI_CHU_CAC_CON",
+   "VARCHAR2(3000 BYTE)"
+  ],
+  [
+   "HO_TEN_BO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HO_TEN_ME",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HO_TEN_VC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CAC_CON",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_CON_LAI_CUOI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_CON_LAI_TOA",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_CHAP_HANH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_CHAP_HANH_CUOI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CHAP_HANH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TG_TAM_GIU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TAM_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_CON_LAI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_MUC_TG_CON_LAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TG_TRON",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TDC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HINH_PHAT_BO_SUNG",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TIEN_AN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_LAN_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GIAM_AN_CHI_TIET",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "XEP_LOAI_CAI_TAO",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "XEP_LOAI_GON",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "LAST_XLCT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_XET",
+   "DATE"
+  ],
+  [
+   "MA_MUC_DN_GIAM_TG",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NHAN_XET_TG",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MUC_DN_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_MUC_DN_GIAM_V26",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MUC_DN_TC8",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_QD_GIAM",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_THA_GIAM_HET_AN",
+   "DATE"
+  ],
+  [
+   "MA_MUC_QD_GIAM_TOA_AN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_QD_GIAM",
+   "DATE"
+  ],
+  [
+   "MUC_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TOA_QD_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_QUOC_TICH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_TA",
+   "NUMBER(2,0)"
+  ],
+  [
+   "NGAY_SINH_PN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "SO_PHIEU",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NHAN_THAN",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_CAP_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_CAP_TOA_XU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_HOP_XET",
+   "DATE"
+  ],
+  [
+   "CO_HIEU_LUC",
+   "VARCHAR2(500 BYTE)"
+  ]
+ ],
+ "PN_TONG_HOP_THA_CO_DK": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_HSLD",
+   "VARCHAR2(11 BYTE)"
+  ],
+  [
+   "HO_TEN",
+   "VARCHAR2(60 BYTE)"
+  ],
+  [
+   "ORDER_HO_TEN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TEN_KHAC",
+   "VARCHAR2(150 BYTE)"
+  ],
+  [
+   "ND_GIOI_TINH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NAM_SINH",
+   "NUMBER"
+  ],
+  [
+   "NGAY_SINH_PN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NGUYEN_QUAN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "SO_DB",
+   "VARCHAR2(9 BYTE)"
+  ],
+  [
+   "NGAY_LAP_DB",
+   "DATE"
+  ],
+  [
+   "NOI_LAP_DB",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DC_TT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DC_VE_PHUONG_XA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DC_VE_HUYEN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_DP_DC_VE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DC_VE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CHO_O_KHAC",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "PX_DCVE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_TINH_VE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_DP_DC_VE",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_DAN_TOC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_QUOC_TICH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_TON_GIAO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_HOC_VAN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "ND_NGHE_NGHIEP",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ND_TOI_DANH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_BAT",
+   "DATE"
+  ],
+  [
+   "NGAY_DEN_TRAI",
+   "DATE"
+  ],
+  [
+   "MA_MUC_AN_PHAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_MUC_AN_PHAT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MUC_TAM_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TRAI_GIAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "BAN_AN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_XU",
+   "DATE"
+  ],
+  [
+   "MA_CAP_TOA_XU",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "ND_CAP_TOA_XU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TOA_XU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_PHAN_DOI",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "PHAN_TRAI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_QD_TH_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QD_TH_AN",
+   "DATE"
+  ],
+  [
+   "TOA_QD",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "DP_TOA_QD",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NHAN_THAN",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_QUOC_TICH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_TA",
+   "NUMBER(2,0)"
+  ],
+  [
+   "SO_TIEN_AN",
+   "VARCHAR2(40 BYTE)"
+  ],
+  [
+   "SO_TIEN_SU",
+   "VARCHAR2(40 BYTE)"
+  ],
+  [
+   "GHI_CHU_TIEN_SU",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "ND_TRAI_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "PHAN_DOI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_RA_TRAI",
+   "DATE"
+  ],
+  [
+   "SUC_KHOE_VAO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_RIENG",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "GHI_CHU_RIENG",
+   "VARCHAR2(300 BYTE)"
+  ],
+  [
+   "CHI_TIET_HV",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GHI_CHU_CAC_CON",
+   "VARCHAR2(3000 BYTE)"
+  ],
+  [
+   "HO_TEN_BO",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HO_TEN_ME",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HO_TEN_VC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CAC_CON",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_CHAP_HANH",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TAM_GIU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TAM_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "MA_TG_CON_LAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TG_CON_LAI",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TRON",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TG_TDC",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "HINH_PHAT_BO_SUNG",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "TIEN_AN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "SO_LAN_GIAM",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GIAM_AN_CHI_TIET",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "LAST_XLCT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_XET_TT",
+   "DATE"
+  ],
+  [
+   "SO_PHIEU",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "XEP_LOAI_CAI_TAO",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "XEP_LOAI_GON",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NHAN_XET_TT",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "DANH_GIA_CAI_TAO_TT",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "DE_NGHI_TT",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "Y_KIEN_DOI_PN_TT",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_DUOC_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "SO_QD_TT",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_TT",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_TT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TOA_QD_TT",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "NGAY_THA_TT",
+   "DATE"
+  ],
+  [
+   "NGAY_TRINH_DIEN_TT",
+   "DATE"
+  ],
+  [
+   "SO_QD_TL",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_QD_TL",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD_TL",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD_TL",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LY_DO_TRO_LAI",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "LY_DO_TROLAI_CHITIET",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "NGAY_XET_THA",
+   "DATE"
+  ]
+ ],
+ "PN_TRICH_XUAT_DEN": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_CQ_DN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_DP_DN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "SO_CV_DN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_CV_DN",
+   "DATE"
+  ],
+  [
+   "SO_LENH",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "NGAY_RA_LENH",
+   "DATE"
+  ],
+  [
+   "MA_CQ_RA_LENH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_RA_LENH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MUC_DICH",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "MA_THOI_HAN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "TU_NGAY",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY",
+   "DATE"
+  ],
+  [
+   "CHU_THICH",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "NGAY_TRA",
+   "DATE"
+  ]
+ ],
+ "PN_TT_TRON_TRAI": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "NGAY_TRON",
+   "DATE"
+  ],
+  [
+   "MA_TH_TRON",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TRUONG_HOP_TRON",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NOI_TRON",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "BP_CHI_DAO_CUA_TRAI",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "DE_NGHI_CAP_TREN",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "NGAY_BAT_LAI",
+   "DATE"
+  ],
+  [
+   "DON_VI_BAT",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NOI_BAT_LAI",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_TH_BAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TRUONG_HOP_BAT",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_HTXL_BAT",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "HINH_THUC_XU_LY",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "GHI_CHU_TT",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_TRON",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SO_QD_TN",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_QD_TN",
+   "DATE"
+  ],
+  [
+   "SO_QD_DN",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NGAY_QD_DN",
+   "DATE"
+  ]
+ ],
+ "PN_TT_TRUY_NA": [
+  [
+   "MA_PN_TT",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "QD_TN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_TN_NGAY",
+   "DATE"
+  ],
+  [
+   "NGUOI_QD_TN_HOTEN",
+   "VARCHAR2(60 BYTE)"
+  ],
+  [
+   "NGUOI_QD_TN_CHUCVU",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CANCU_TN_ND",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CANCU_TN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "CANCU_TN_NGAY",
+   "DATE"
+  ],
+  [
+   "CANCU_TN_CUA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TN_DOI_VOI",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "HANH_VI_VP",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "DIEU_VI_PHAM",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "NOI_BAO_HOTEN",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NOI_BAO_DIENTHOAI",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "QD_DN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "QD_DN_NGAY",
+   "DATE"
+  ],
+  [
+   "NGUOI_QD_DN_HOTEN",
+   "VARCHAR2(60 BYTE)"
+  ],
+  [
+   "NGUOI_QD_DN_CHUCVU",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CANCU_DN_ND",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CANCU_DN_SO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "CANCU_DN_NGAY",
+   "DATE"
+  ],
+  [
+   "CANCU_DN_CUA",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "GHI_CHU_TTTN",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_TU_HINH": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_QDTH_AN",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_QDTH_AN",
+   "DATE"
+  ],
+  [
+   "MA_CQ_TOA_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TOA_QD",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_THI_HANH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_THI_HANH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_THI_HANH",
+   "DATE"
+  ],
+  [
+   "NOI_THI_HANH",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "NOI_CHON",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "SO_MO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "HANG_MO",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_BOC_MO",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_TH",
+   "VARCHAR2(1000 BYTE)"
+  ]
+ ],
+ "PN_TX_DI_VIEN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_LENH_TX",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "MA_BENH_TAT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "BENH_VIEN",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "BENH_XA",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "TU_NGAY_BX",
+   "DATE"
+  ],
+  [
+   "DEN_NGAY_BX",
+   "DATE"
+  ],
+  [
+   "BENH_TAT",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_TX_GIA_HAN": [
+  [
+   "MA_PN_TX",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "SO_LENH_TXGH",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_LENH_TXGH",
+   "DATE"
+  ],
+  [
+   "SO_CV_DN_TXGH",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_CV_DN_TXGH",
+   "DATE"
+  ],
+  [
+   "MA_MUC_THOI_HAN_TXGH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TU_NGAY_TXGH",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_TXGH",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "PN_TX_TRICH_XUAT": [
+  [
+   "MA_PN_TX",
+   "VARCHAR2(18 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "SO_LENH_TX",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_LENH_TX",
+   "DATE"
+  ],
+  [
+   "SO_CV_DN_TX",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "NGAY_CV_DN_TX",
+   "DATE"
+  ],
+  [
+   "MA_CQ_DN_TX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_DN_TX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LY_DO_TX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "LY_DO_TX",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "MA_MUC_THOI_HAN_TX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TU_NGAY_TX",
+   "DATE"
+  ],
+  [
+   "NGAY_TX",
+   "DATE"
+  ],
+  [
+   "NGAY_TRA_LAI",
+   "DATE"
+  ],
+  [
+   "GHI_CHU_TX",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "MA_TRAI_GIAM_VE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_RL_TX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_RL_TX",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_CQ_TX_VE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_DP_TX_VE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_LENH_TX",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_TINH_TRANG_TX",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_BAN_GIAO_TX",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "PN_VU_AN": [
+  [
+   "PN_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "MA_LOAI_VU_AN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TEN_VU_AN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_VAI_TRO_VU_AN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "THONG_TIN_KHAC",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "S_ABOUT": [
+  [
+   "ABOUT_QLPN",
+   "VARCHAR2(4000 BYTE)"
+  ]
+ ],
+ "S_AUTO_CORRECT": [
+  [
+   "KEY",
+   "VARCHAR2(2000 BYTE)"
+  ],
+  [
+   "VALUE",
+   "VARCHAR2(4000 BYTE)"
+  ]
+ ],
+ "S_BAOCAO": [
+  [
+   "MA",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "TEN",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_NHOM",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "S_DANH_MUC": [
+  [
+   "TABLE_NAME",
+   "VARCHAR2(30 BYTE)"
+  ],
+  [
+   "COMMENTS",
+   "VARCHAR2(4000 BYTE)"
+  ]
+ ],
+ "S_DANH_SACH": [
+  [
+   "MA_DS",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TEN_DS",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "STT",
+   "NUMBER"
+  ]
+ ],
+ "S_DANH_SACH_DONG": [
+  [
+   "ID_DANH_SACH",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "TEN_DANH_SACH",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "S_DANH_SACH_DONG_DATA": [
+  [
+   "STT",
+   "NUMBER"
+  ],
+  [
+   "SO_HSLD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ID_DANH_SACH",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "PN_ID",
+   "VARCHAR2(30 BYTE)"
+  ]
+ ],
+ "S_DEFAULT_VALUES": [
+  [
+   "FORM_NAME",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "BLOCK_NAME",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "ITEM_NAME",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "DEFAULT_VALUE",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "S_DIEU_KIEN": [
+  [
+   "TEN_DIEU_KIEN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "LENH_SQL",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CHECK_DIEU_KIEN",
+   "NUMBER(1,0)"
+  ],
+  [
+   "ID_DK",
+   "NUMBER(10,0)"
+  ]
+ ],
+ "S_DIEU_KIEN_DX": [
+  [
+   "TEN_DIEU_KIEN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "LENH_SQL",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CHECK_DIEU_KIEN",
+   "NUMBER(1,0)"
+  ],
+  [
+   "ID_DK",
+   "NUMBER(10,0)"
+  ]
+ ],
+ "S_DIEU_KIEN_DX_KHAC": [
+  [
+   "TEN_DIEU_KIEN",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "LENH_SQL",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "GHI_CHU",
+   "VARCHAR2(4000 BYTE)"
+  ],
+  [
+   "CHECK_DIEU_KIEN",
+   "NUMBER(1,0)"
+  ],
+  [
+   "ID_DK",
+   "NUMBER(10,0)"
+  ]
+ ],
+ "S_FORM": [
+  [
+   "ID",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NAME",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "MA_ROLE",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "INS",
+   "NUMBER(1,0)"
+  ],
+  [
+   "DEL",
+   "NUMBER(1,0)"
+  ],
+  [
+   "UPD",
+   "NUMBER(1,0)"
+  ],
+  [
+   "TAB_NAME",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "S_LOV": [
+  [
+   "FORM_NAME",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "BLOCK_NAME",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ITEM_NAME",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "LOV_NAME",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "LOV_TYPE",
+   "NUMBER"
+  ],
+  [
+   "LOV_VALUE",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "S_PN_THONG_KE": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "MA_GIOI_TINH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TOI_DANH",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SO_TIEN_AN",
+   "NUMBER(2,0)"
+  ],
+  [
+   "SO_TIEN_SU",
+   "NUMBER(2,0)"
+  ],
+  [
+   "SINH_NGAY",
+   "DATE"
+  ],
+  [
+   "MA_DAN_TOC",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TON_GIAO",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_QUOC_TICH",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_HOC_VAN",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "NGAY_BAT",
+   "DATE"
+  ],
+  [
+   "MA_LOAI_AN",
+   "NUMBER"
+  ],
+  [
+   "AN_PHAT_NAM",
+   "NUMBER"
+  ],
+  [
+   "AN_PHAT_THANG",
+   "NUMBER"
+  ],
+  [
+   "AN_PHAT_NGAY",
+   "NUMBER"
+  ],
+  [
+   "MUC_AN",
+   "NUMBER"
+  ],
+  [
+   "MA_NGHE_NGHIEP",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_TAI_PHAM",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MA_GHI_CHU_RIENG",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "S_PRIV": [
+  [
+   "MA_ROLE",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "TAB_NAME",
+   "VARCHAR2(200 BYTE)"
+  ],
+  [
+   "SEL",
+   "NUMBER"
+  ],
+  [
+   "INS",
+   "NUMBER"
+  ],
+  [
+   "UPD",
+   "NUMBER"
+  ],
+  [
+   "DEL",
+   "NUMBER"
+  ]
+ ],
+ "S_REPORT": [
+  [
+   "KY_HIEU",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TEN_BAO_CAO",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "BLK",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "STT",
+   "NUMBER"
+  ],
+  [
+   "LIST",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "S_ROLE": [
+  [
+   "MA",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "ND",
+   "VARCHAR2(100 BYTE)"
+  ]
+ ],
+ "S_THONG_KE": [
+  [
+   "KY_HIEU",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TEN_BAO_CAO",
+   "VARCHAR2(500 BYTE)"
+  ],
+  [
+   "STT",
+   "NUMBER"
+  ],
+  [
+   "XOA_TRANG_THAI",
+   "NUMBER"
+  ]
+ ],
+ "S_THUOC_TINH": [
+  [
+   "FOREGROUND",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "PROMPTCOLOR",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SIZEPROMPT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "SIZETEXT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "COLORPROMPT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "COLORTEXT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "FONTPROMPT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "FONTTEXT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "VA_FONT_COLOR",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "VA_FONT_WEIGHT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "VA_CURRENT_RECORD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ITEMBACKGROUND",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MABACKGROUND",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ITEMFOREGROUND",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "COLORMATEXT",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "ITEMPROMPTCOLOR",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "S_UPDATE_RATRAI": [
+  [
+   "NGAY_CAP_NHAT",
+   "DATE"
+  ]
+ ],
+ "S_USER": [
+  [
+   "ID",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NAME",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "PASSWORD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "MA_ROLE",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_PHAN_DOI",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "S_USER1": [
+  [
+   "ID",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NAME",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "PASSWORD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TITLE",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CREATED",
+   "DATE"
+  ],
+  [
+   "S_ROLE_ID",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_ROLE",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_CQ",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DB_UN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "DB_PW",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "DB_CN",
+   "VARCHAR2(10 BYTE)"
+  ]
+ ],
+ "S_USER_BUTTON": [
+  [
+   "S_FORM_ID",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "S_BUTTON_ID",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "S_ROLE_ID",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "S_USER_FORM": [
+  [
+   "S_ROLE_ID",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "S_FORM_ID",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "S_USER_OLD": [
+  [
+   "ID",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NAME",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "PASSWORD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "TITLE",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "CREATED",
+   "DATE"
+  ],
+  [
+   "MA_ROLE",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_CQ",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "DB_UN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "DB_PW",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "DB_CN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_PHAN_DOI",
+   "VARCHAR2(50 BYTE)"
+  ]
+ ],
+ "S_USER_PARA": [
+  [
+   "ID",
+   "VARCHAR2(7 BYTE)"
+  ],
+  [
+   "MCQ_MA_TRAI",
+   "VARCHAR2(6 BYTE)"
+  ]
+ ],
+ "S_USER_ROLE": [
+  [
+   "USER_ID",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_ROLE",
+   "VARCHAR2(20 BYTE)"
+  ]
+ ],
+ "S_USER_TC8": [
+  [
+   "ID",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "NAME",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "PASSWORD",
+   "VARCHAR2(50 BYTE)"
+  ],
+  [
+   "DB_UN",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "DB_PW",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "DB_CN",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "MA_QUYEN_TC8",
+   "VARCHAR2(7 BYTE)"
+  ]
+ ],
+ "S_VERSION": [
+  [
+   "VERSION_CODE",
+   "VARCHAR2(10 BYTE)"
+  ],
+  [
+   "VERSION_DATE",
+   "DATE"
+  ],
+  [
+   "CONNECT_DATE",
+   "DATE"
+  ]
+ ],
+ "S_WHERE": [
+  [
+   "W_ID",
+   "VARCHAR2(20 BYTE)"
+  ],
+  [
+   "W_TEXT",
+   "VARCHAR2(2000 BYTE)"
+  ]
+ ],
+ "TEST_TK_PT80": [
+  [
+   "COLNO",
+   "NUMBER(3,0)"
+  ],
+  [
+   "COLTITLE",
+   "VARCHAR2(100 BYTE)"
+  ],
+  [
+   "COLVAL",
+   "NUMBER(9,0)"
+  ]
+ ],
+ "TK_CHUNG": [
+  [
+   "STT",
+   "NUMBER"
+  ],
+  [
+   "TEN_CHI_TIEU",
+   "VARCHAR2(1000 BYTE)"
+  ],
+  [
+   "TS_NAM",
+   "NUMBER"
+  ],
+  [
+   "TS_NU",
+   "NUMBER"
+  ],
+  [
+   "TONG_SO",
+   "NUMBER"
+  ]
+ ],
+ "TMP_PN_ANH_PHAM_NHAN": [
+  [
+   "PN_ID",
+   "VARCHAR2(16 BYTE)"
+  ],
+  [
+   "ANH_CHINH_DIEN",
+   "BLOB"
+  ],
+  [
+   "UPD_TIME",
+   "DATE"
+  ]
+ ]
+}
