@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Generated build output
+build/
+**/build/
+dist/
+**/dist/
+dist_*/
+**/dist_*/
+build_*/
+**/build_*/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+
+# Nested repository metadata; its working files are tracked in this monorepo
+Tool-check-data/.git/
